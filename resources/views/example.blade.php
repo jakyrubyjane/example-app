@@ -8,9 +8,6 @@
 </head>
 <body>
 <script src="{{ asset('js/app.js') }}"></script>
-
-
-
     <div class="mb-3">
         <label for="name" class="form-label"><?=$name; ?> </label>
         <input type="text" name="name" id="name" class="form-control" required>
@@ -20,8 +17,6 @@
         <label for="email" class="form-label"><?=$email; ?></label>
         <input type="email" name="email" id="email" class="form-control" required>
     </div>
-
     <button type="submit" class="btn btn-primary">Daftar</button>
-
 </body>
 </html>

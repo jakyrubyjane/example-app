@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('perumahan', function (Blueprint $table) {
             $table->id();
-            $table->increments("id_perumahan")
-            $table->interger("luas_perumahan")
-            $table->interger("harga_perumahan")
+            $table->increments("id_perumahan");
+            $table->interger("luas_perumahan");
+            $table->interger("harga_perumahan");
         });
 
     }

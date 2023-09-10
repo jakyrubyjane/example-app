@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MencobaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('example', function () {
-    return view('example',[
-        "name" => "Masukan Nama",
-        "email" => "Masukan Email"
-    ]);
-});
+
+Route::get('/about', [MencobaController::class,'aboutme']);

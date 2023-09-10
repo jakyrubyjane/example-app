@@ -1,24 +1,36 @@
 body {
-    background-color: beige;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
-h1 {
-    color: red;
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
-.form-wrapper {
-        margin: 20px;
-    }
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-    .form-label {
-        margin-bottom: 10px;
-    }
+h2 {
+    margin-top: 20px;
+}
 
-    .form-control {
-        margin-bottom: 15px;
-    }
-
-    .btn {
-        margin-top: 10px;
-    }
-
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
